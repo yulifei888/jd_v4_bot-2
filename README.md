@@ -1,4 +1,7 @@
-#最后两行二选一，根据自己的平台，一键部署v4_bot
+#最后两行根据自己的平台二选一，一键部署v4_bot。
+
+
+
 
     docker run -dit \
     -v $PWD/jd_v4_bot/config:/jd/config \
