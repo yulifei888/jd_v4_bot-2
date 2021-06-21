@@ -1,4 +1,4 @@
-#最后两行根据自己的平台二选一，一键部署v4_bot。
+#一键部署v4_bot
 
 
 
@@ -17,5 +17,4 @@
     --name jd_v4_bot \
     --hostname jd_v4_bot \
     --restart always \
-    anyline/jd:v4_bot_amd64
-    anyline/jd:v4_bot_arm
+    anyline/jd:v4_bot
