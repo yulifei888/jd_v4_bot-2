@@ -7,7 +7,6 @@
     -v $PWD/jd_v4_bot/diy:/jd/jbot/diy \
     -v $PWD/jd_v4_bot/scripts:/jd/scripts \
     -p 5678:5678 \
-    -e ENABLE_HANGUP=true \
     -e ENABLE_WEB_PANEL=true \
     -e ENABLE_TG_BOT=true \
     --name jd_v4_bot \
